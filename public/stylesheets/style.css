@@ -1,0 +1,95 @@
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .center {
+    width: 100%;
+  }
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+html,body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto";
+  font-size: 10px;
+  line-height: 3.5em;
+  font-weight: 300;
+}
+
+#information{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+#img{
+  height: 150px;
+  width: 120px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.nav-bar {
+  background-color: rgb(25, 33, 41);
+  padding: 14px 0;
+}
+
+.nav-bar a {
+  font-size: 2em;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-bar-ul {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.nav-bar-ul li {
+  list-style-type: none;
+  text-align: center;
+}
+
+#Banner {
+  background-color: rgb(129, 129, 230);
+  height: 100px;
+}
+
+    #Banner p {
+      color: white;
+      text-align: center;
+      font-size: xx-large;
+    }
+
+.station{
+    background-color: cyan;
+    font-size: medium;
+    height: 220px;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-evenly;
+}
+
+.description{
+    background-color: blueviolet;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 220px;
+    width: 400px;
+}
+
+footer{
+background-color: beige;
+text-align: center;
+margin-top: 10px;
+}
